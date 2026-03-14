@@ -36,7 +36,7 @@ def TypeOferrors( XE ,  XA):
 
 
     except ValueError():
-        print("Pleas Ente Float Number Correct  \n")
+        print("Pleas Enter Float Number Correct  \n")
 
 
 

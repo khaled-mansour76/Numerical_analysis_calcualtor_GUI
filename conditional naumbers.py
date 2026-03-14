@@ -16,13 +16,13 @@ def calculate_condition_number(equation, A):
         return ("Enter A correct Ex. 𝜋 -> pi")
 
     r1 = f.subs(x, Ae).evalf()  #calculate f(a)
-    r2 = d.subs(x, Ae).evalf()  #calclate f'(a)
+    r2 = d.subs(x, Ae).evalf()  #calculate f'(a)
     
     if r1 == 0:
         return("f(a) = 0")
     
 
-    print(f"The Original  Function -> {f} \n ") ; print(f"The Derintive Function -> {d} \n") ; print(f"a Value {Ae} Original a {A}")
+    print(f"The Original  Function -> {f} \n ") ; print(f"The Derivative Function -> {d} \n") ; print(f"a Value {Ae} Original a {A}")
     
 
     result = abs((Ae * r2) / r1)

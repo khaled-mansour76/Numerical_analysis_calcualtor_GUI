@@ -1,6 +1,6 @@
 import numpy as np
 
-def doolittle(A):
+def doolittle(A , B):
     n = len(A)
     L = np.zeros((n, n))
     U = np.zeros((n, n))
@@ -17,24 +17,17 @@ def doolittle(A):
                 Rh = sum(L[k][m] * U[m][i] for m in range(i))
                 L[k][i] = (A[k][i] - Rh) / U[i][i]
 
+    v = np.zeros(n)
+    for i in range(n):
+        Rh = sum(L[i][m] * v[m] for m in range(i))
+        v[i] = B[i] - Rh
+
+    x = np.zeros(n)
+
+    for i in range(n - 1, -1, -1):
+        Rh = sum(U[i][m] * x[m] for m in range(i + 1, n))
+        x[i] = (v[i] - Rh) / U[i][i]
+
+
+    return L ,U , v ,x
     
-
-    
-
-
-
-
-
-# A = np.array([[2, 1, 4],
-#               [8, -3, 2],
-#               [4, 11, -1]], dtype=float)
-
-# L,U= doolittle(A)
-
-# print("Lower Matrix (L):")
-# print(L)
-
-# print("\nUpper Matrix (U):")
-# print(U)
-
-# print(f"\n L * U = A \n {np.dot(L, U)}")
