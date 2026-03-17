@@ -30,4 +30,6 @@ def doolittle(A , B):
 
 
     return L ,U , v ,x
+
+
     
