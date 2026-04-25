@@ -1,0 +1,520 @@
+[2026-04-25 14:53:21] Method: Newton-Raphson
+Inputs: f(x)=x^2, eps=0.0001
+Result: Root=0.007812, iters=7
+----------------------------------------
+[2026-04-25 14:53:33] Method: Newton-Raphson
+Inputs: f(x)=2x, eps=0.0001
+Result: Root=0.000000, iters=1
+----------------------------------------
+[2026-04-25 14:53:38] Method: Newton-Raphson
+Inputs: f(x)=2x, eps=0.0001
+Result: Root=0.000000, iters=1
+----------------------------------------
+[2026-04-25 14:53:52] Method: Secant
+Inputs: f(x)=x**2, eps=0.0001
+Result: Root=0.006211, iters=11
+----------------------------------------
+[2026-04-25 14:55:36] Method: Doolittle
+Inputs: Matrix size 2x2
+Result: Solved - Checked Details
+----------------------------------------
+[2026-04-25 14:57:51] Method: Newton-Raphson
+Inputs: f(x)=x^2, eps=0.0001
+Result: Root=0.007812, iters=7
+----------------------------------------
+[2026-04-25 15:02:18] Method: Newton-Raphson
+Inputs: f(x)=x^4 - 11x - 8, eps=0.0001
+Result: Root=2.427023, iters=4
+----------------------------------------
+[2026-04-25 15:03:03] Method: Newton-Raphson
+Inputs: f(x)=x^4 - 11x - 8, eps=1e-05
+Result: Root=2.427022, iters=5
+----------------------------------------
+[2026-04-25 15:03:09] Method: Newton-Raphson
+Inputs: f(x)=x^4 - 11x - 8, eps=1e-06
+Result: Root=2.427022, iters=5
+----------------------------------------
+[2026-04-25 15:03:14] Method: Newton-Raphson
+Inputs: f(x)=x^4 - 11x - 8, eps=1e-06
+Result: Root=2.427022, iters=5
+----------------------------------------
+[2026-04-25 15:03:46] Method: Newton-Raphson
+Inputs: f(x)=x^4 - 11x - 8, eps=0.0001
+Result: Root=2.427023, iters=4
+----------------------------------------
+[2026-04-25 15:05:28] Method: Newton-Raphson
+Inputs: f(x)=x^4 - 11x + 8, eps=0.0001
+Result: Root=1.891876, iters=3
+----------------------------------------
+[2026-04-25 15:05:52] Method: Newton-Raphson
+Inputs: f(x)=x^4 - 11x + 8, eps=1e-05
+Result: Root=1.891876, iters=3
+----------------------------------------
+[2026-04-25 15:05:57] Method: Newton-Raphson
+Inputs: f(x)=x^4 - 11x + 8, eps=1e-06
+Result: Root=1.891876, iters=4
+----------------------------------------
+[2026-04-25 15:08:04] Method: Newton-Raphson
+Inputs: f(x)=e^x - 3x^2, eps=1e-06
+Result: Root=0.910008, iters=3
+----------------------------------------
+[2026-04-25 15:21:33] Method: Thomas Algorithm
+Inputs: Matrix size 4x4
+Result: Solved - Checked Details
+----------------------------------------
+[2026-04-25 15:22:02] Method: Thomas Algorithm
+Inputs: Matrix size 4x4
+Result: Solved - Checked Details
+----------------------------------------
+[2026-04-25 15:23:03] Method: Doolittle
+Inputs: Matrix size 3x3
+Result: Solved - Checked Details
+----------------------------------------
+[2026-04-25 15:24:37] Method: Jacobi
+Inputs: Matrix size 3x3
+Result: Solved - Checked Details
+----------------------------------------
+[2026-04-25 15:25:16] Method: Jacobi
+Inputs: Matrix size 3x3
+Result: Solved - Checked Details
+----------------------------------------
+[2026-04-25 15:26:20] Method: Gauss-Seidel
+Inputs: Matrix size 3x3
+Result: Solved - Checked Details
+----------------------------------------
+[2026-04-25 15:26:41] Method: Gauss-Seidel
+Inputs: Matrix size 3x3
+Result: Solved - Checked Details
+----------------------------------------
+[2026-04-25 15:27:27] Method: Bisection
+Inputs: f(x)=x^3 - x -2, eps=0.0001
+Result: Root=1.521423, iters=14
+----------------------------------------
+[2026-04-25 15:27:41] Method: Bisection
+Inputs: f(x)=x^3 - x -2, eps=1e-05
+Result: Root=1.521385, iters=17
+----------------------------------------
+[2026-04-25 15:28:01] Method: Bisection
+Inputs: f(x)=x^3 - x -2, eps=0.001
+Result: Root=1.520508, iters=10
+----------------------------------------
+[2026-04-25 15:29:05] Method: Bisection
+Inputs: f(x)=e^x - 3x, eps=0.001
+Result: Root=1.511719, iters=7
+----------------------------------------
+[2026-04-25 15:29:33] Method: Bisection
+Inputs: f(x)=e^x - 3x, eps=0.01
+Result: Root=1.506250, iters=4
+----------------------------------------
+[2026-04-25 15:30:15] Method: Bisection
+Inputs: f(x)=e^x - 3x^2, eps=1e-05
+Result: Root=0.910011, iters=16
+----------------------------------------
+[2026-04-25 15:30:22] Method: Bisection
+Inputs: f(x)=e^x - 3x^2, eps=1e-05
+Result: Root=0.910011, iters=16
+----------------------------------------
+[2026-04-25 15:30:40] Method: Bisection
+Inputs: f(x)=e^x - 3x^2, eps=0.001
+Result: Root=0.909180, iters=9
+----------------------------------------
+[2026-04-25 15:31:14] Method: False Position
+Inputs: f(x)=e^x - 3x^2, eps=1e-05
+Result: Root=0.910007, iters=5
+----------------------------------------
+[2026-04-25 15:31:46] Method: False Position
+Inputs: f(x)=e^x - 3x^2, eps=0.0001
+Result: Root=0.910004, iters=4
+----------------------------------------
+[2026-04-25 15:31:57] Method: False Position
+Inputs: f(x)=e^x - 3x^2, eps=1e-05
+Result: Root=0.910007, iters=5
+----------------------------------------
+[2026-04-25 15:33:31] Method: Newton-Raphson
+Inputs: f(x)=e^x - 3x^2, eps=0.0001
+Result: Root=0.910018, iters=2
+----------------------------------------
+[2026-04-25 15:33:46] Method: Newton-Raphson
+Inputs: f(x)=e^x - 3x^2, eps=1e-05
+Result: Root=0.910008, iters=3
+----------------------------------------
+[2026-04-25 15:34:59] Method: Secant
+Inputs: f(x)=x^3 - 8x -5, eps=0.0001
+Result: Root=3.100432, iters=4
+----------------------------------------
+[2026-04-25 15:47:21] Method: Newton-Raphson
+Inputs: f(x)=x^4 - 11x + 8, eps=0.0001
+Result: Root=1.891876, iters=3
+----------------------------------------
+[2026-04-25 15:47:28] Method: Newton-Raphson
+Inputs: f(x)=x^4 - 11x + 8, eps=1e-05
+Result: Root=1.891876, iters=3
+----------------------------------------
+[2026-04-25 15:47:46] Method: Newton-Raphson
+Inputs: f(x)=x^4 - 11x + 8, eps=1e-05
+Result: Root=1.891876, iters=3
+----------------------------------------
+[2026-04-25 16:36:23] Method: Newton-Raphson
+Inputs: f(x)=e^x - 3x^2, eps=0.0001
+Result: Root=0.910018, iters=2
+----------------------------------------
+[2026-04-25 16:36:31] Method: Newton-Raphson
+Inputs: f(x)=e^x - 3x^2, eps=1e-05
+Result: Root=0.910008, iters=3
+----------------------------------------
+[2026-04-25 16:42:31] Method: Newton-Raphson
+Inputs: f(x)=e^x - 3x^2, eps=1e-05
+Result: Root=0.910008, iters=3
+----------------------------------------
+[2026-04-25 16:43:00] Method: Newton-Raphson
+Inputs: f(x)=e^x - 3x^2, eps=1e-06
+Result: Root=0.910008, iters=3
+----------------------------------------
+[2026-04-25 16:43:06] Method: Newton-Raphson
+Inputs: f(x)=e^x - 3x^2, eps=1e-07
+Result: Root=0.910008, iters=3
+----------------------------------------
+[2026-04-25 16:43:11] Method: Newton-Raphson
+Inputs: f(x)=e^x - 3x^2, eps=1e-08
+Result: Root=0.910008, iters=3
+----------------------------------------
+[2026-04-25 16:43:16] Method: Newton-Raphson
+Inputs: f(x)=e^x - 3x^2, eps=1e-09
+Result: Root=0.910008, iters=3
+----------------------------------------
+[2026-04-25 16:47:25] Method: Newton-Raphson
+Inputs: f(x)=e^x - 3x^2, eps=0.0001
+Result: Root=0.910018, iters=2
+----------------------------------------
+[2026-04-25 16:47:32] Method: Newton-Raphson
+Inputs: f(x)=e^x - 3x^2, eps=1e-05
+Result: Root=0.910008, iters=3
+----------------------------------------
+[2026-04-25 16:48:07] Method: Newton-Raphson
+Inputs: f(x)=x^4 - 11x +8, eps=1e-05
+Result: Root=1.891876, iters=3
+----------------------------------------
+[2026-04-25 16:51:18] Method: Newton-Raphson
+Inputs: f(x)=x^4 - 11x +8, eps=0.0001
+Result: Root=1.891876, iters=3
+----------------------------------------
+[2026-04-25 16:52:41] Method: Newton-Raphson
+Inputs: f(x)=x^4 - 11x +8, eps=1e-05
+Result: Root=1.891876, iters=3
+----------------------------------------
+[2026-04-25 16:56:04] Method: Newton-Raphson
+Inputs: f(x)=x^4 - 11x +8, eps=1e-05
+Result: Root=1.891876, iters=3
+----------------------------------------
+[2026-04-25 16:56:49] Method: Newton-Raphson
+Inputs: f(x)=e^x - 3x^2, eps=1e-05
+Result: Root=0.910008, iters=3
+----------------------------------------
+[2026-04-25 16:58:00] Method: Secant
+Inputs: f(x)=x^3 - 8x -5, eps=0.0001
+Result: Root=3.100432, iters=4
+----------------------------------------
+[2026-04-25 17:02:18] Method: Secant
+Inputs: f(x)=e^x - 3x, eps=1e-05
+Result: Root=0.619061, iters=6
+----------------------------------------
+[2026-04-25 17:03:50] Method: Secant
+Inputs: f(x)=e^x - 3x, eps=1e-05
+Result: Root=0.619061, iters=6
+----------------------------------------
+[2026-04-25 17:04:14] Method: Secant
+Inputs: f(x)=x^3 - 8x -5, eps=1e-05
+Result: Root=3.100432, iters=5
+----------------------------------------
+[2026-04-25 17:04:37] Method: Newton-Raphson
+Inputs: f(x)=e^x - 3x^2, eps=1e-05
+Result: Root=0.910008, iters=3
+----------------------------------------
+[2026-04-25 17:04:47] Method: Newton-Raphson
+Inputs: f(x)=e^x - 3x^2, eps=1e-05
+Result: Root=0.910008, iters=3
+----------------------------------------
+[2026-04-25 17:04:56] Method: Newton-Raphson
+Inputs: f(x)=e^x - 3x^2, eps=1e-05
+Result: Root=0.910008, iters=3
+----------------------------------------
+[2026-04-25 17:05:00] Method: Newton-Raphson
+Inputs: f(x)=e^x - 3x^2, eps=1e-05
+Result: Root=0.910008, iters=3
+----------------------------------------
+[2026-04-25 17:05:20] Method: Newton-Raphson
+Inputs: f(x)=x^4 - 11x +8, eps=1e-05
+Result: Root=1.891876, iters=3
+----------------------------------------
+[2026-04-25 17:07:04] Method: Newton-Raphson
+Inputs: f(x)=x^4 - 11x +8, eps=1e-05
+Result: Root=1.891876, iters=3
+----------------------------------------
+[2026-04-25 17:09:23] Method: Secant
+Inputs: f(x)=x^3 - 8x -5, eps=0.0001
+Result: Root=3.100432, iters=4
+----------------------------------------
+[2026-04-25 17:09:34] Method: Secant
+Inputs: f(x)=x^3 - 8x -5, eps=1e-05
+Result: Root=3.100432, iters=4
+----------------------------------------
+[2026-04-25 17:10:41] Method: Secant
+Inputs: f(x)=x^3 - 8x -5, eps=1e-08
+Result: Root=3.100432, iters=5
+----------------------------------------
+[2026-04-25 17:10:52] Method: Secant
+Inputs: f(x)=x^3 - 8x -5, eps=1.0
+Result: Root=3.084211, iters=1
+----------------------------------------
+[2026-04-25 17:10:56] Method: Secant
+Inputs: f(x)=x^3 - 8x -5, eps=0.1
+Result: Root=3.097876, iters=2
+----------------------------------------
+[2026-04-25 17:11:02] Method: Secant
+Inputs: f(x)=x^3 - 8x -5, eps=0.01
+Result: Root=3.100451, iters=3
+----------------------------------------
+[2026-04-25 17:11:06] Method: Secant
+Inputs: f(x)=x^3 - 8x -5, eps=0.001
+Result: Root=3.100451, iters=3
+----------------------------------------
+[2026-04-25 17:11:09] Method: Secant
+Inputs: f(x)=x^3 - 8x -5, eps=0.0001
+Result: Root=3.100432, iters=4
+----------------------------------------
+[2026-04-25 17:11:13] Method: Secant
+Inputs: f(x)=x^3 - 8x -5, eps=1e-05
+Result: Root=3.100432, iters=4
+----------------------------------------
+[2026-04-25 17:11:17] Method: Secant
+Inputs: f(x)=x^3 - 8x -5, eps=1e-06
+Result: Root=3.100432, iters=4
+----------------------------------------
+[2026-04-25 17:11:17] Method: Secant
+Inputs: f(x)=x^3 - 8x -5, eps=1e-06
+Result: Root=3.100432, iters=4
+----------------------------------------
+[2026-04-25 17:11:21] Method: Secant
+Inputs: f(x)=x^3 - 8x -5, eps=1e-07
+Result: Root=3.100432, iters=5
+----------------------------------------
+[2026-04-25 17:14:04] Method: Newton-Raphson
+Inputs: f(x)=e^x - 3x^2, eps=0.0001
+Result: Root=0.910018, iters=2
+----------------------------------------
+[2026-04-25 17:14:10] Method: Newton-Raphson
+Inputs: f(x)=e^x - 3x^2, eps=0.0001
+Result: Root=0.910018, iters=2
+----------------------------------------
+[2026-04-25 17:14:30] Method: Newton-Raphson
+Inputs: f(x)=e^x - 3x^2, eps=0.0001
+Result: Root=0.910018, iters=2
+----------------------------------------
+[2026-04-25 17:14:41] Method: Newton-Raphson
+Inputs: f(x)=e^x - 3x^2, eps=1e-05
+Result: Root=0.910008, iters=3
+----------------------------------------
+[2026-04-25 17:15:15] Method: Newton-Raphson
+Inputs: f(x)=e^x - 3x^2, eps=0.0001
+Result: Root=0.910018, iters=2
+----------------------------------------
+[2026-04-25 17:15:19] Method: Newton-Raphson
+Inputs: f(x)=e^x - 3x^2, eps=1e-05
+Result: Root=0.910008, iters=3
+----------------------------------------
+[2026-04-25 17:15:59] Method: Secant
+Inputs: f(x)=x^3 - 8x - 5, eps=0.0001
+Result: Root=3.100434, iters=4
+----------------------------------------
+[2026-04-25 17:16:06] Method: Secant
+Inputs: f(x)=x^3 - 8x - 5, eps=1e-05
+Result: Root=3.100432, iters=5
+----------------------------------------
+[2026-04-25 17:16:32] Method: Secant
+Inputs: f(x)=e^x - 3x, eps=1e-05
+Result: Root=0.619061, iters=6
+----------------------------------------
+[2026-04-25 17:16:51] Method: Newton-Raphson
+Inputs: f(x)=e^x - 3x^2, eps=0.0001
+Result: Root=0.910018, iters=2
+----------------------------------------
+[2026-04-25 17:16:56] Method: Newton-Raphson
+Inputs: f(x)=e^x - 3x^2, eps=1e-05
+Result: Root=0.910008, iters=3
+----------------------------------------
+[2026-04-25 17:17:44] Method: Newton-Raphson
+Inputs: f(x)=e^x - 3x^2, eps=0.0001
+Result: Root=0.910018, iters=2
+----------------------------------------
+[2026-04-25 17:17:50] Method: Newton-Raphson
+Inputs: f(x)=e^x - 3x^2, eps=1e-05
+Result: Root=0.910008, iters=3
+----------------------------------------
+[2026-04-25 17:18:11] Method: Secant
+Inputs: f(x)=x^3 - 8x - 5, eps=0.0001
+Result: Root=3.100432, iters=6
+----------------------------------------
+[2026-04-25 17:21:37] Method: Newton-Raphson
+Inputs: f(x)=e^x - 3x^2, eps=0.0001
+Result: Root=0.910018, iters=2
+----------------------------------------
+[2026-04-25 17:21:42] Method: Newton-Raphson
+Inputs: f(x)=e^x - 3x^2, eps=1e-05
+Result: Root=0.910008, iters=3
+----------------------------------------
+[2026-04-25 17:22:08] Method: Secant
+Inputs: f(x)=x^3 - 8x -5, eps=0.0001
+Result: Root=3.100432, iters=4
+----------------------------------------
+[2026-04-25 17:22:14] Method: Secant
+Inputs: f(x)=x^3 - 8x -5, eps=1e-05
+Result: Root=3.100432, iters=4
+----------------------------------------
+[2026-04-25 17:22:28] Method: Secant
+Inputs: f(x)=x^3 - 8x -5, eps=1e-05
+Result: Root=3.100432, iters=4
+----------------------------------------
+[2026-04-25 17:22:43] Method: Secant
+Inputs: f(x)=x^3 - 8x -5, eps=1e-05
+Result: Root=3.100432, iters=5
+----------------------------------------
+[2026-04-25 17:22:58] Method: Secant
+Inputs: f(x)=x^3 - 8x -5, eps=1e-05
+Result: Root=3.100432, iters=4
+----------------------------------------
+[2026-04-25 17:23:05] Method: Secant
+Inputs: f(x)=x^3 - 8x -5, eps=1e-06
+Result: Root=3.100432, iters=4
+----------------------------------------
+[2026-04-25 17:23:09] Method: Secant
+Inputs: f(x)=x^3 - 8x -5, eps=1e-06
+Result: Root=3.100432, iters=4
+----------------------------------------
+[2026-04-25 17:23:35] Method: Secant
+Inputs: f(x)=e^x -3x, eps=1e-06
+Result: Root=0.619061, iters=6
+----------------------------------------
+[2026-04-25 17:23:41] Method: Secant
+Inputs: f(x)=e^x -3x, eps=1e-05
+Result: Root=0.619061, iters=6
+----------------------------------------
+[2026-04-25 17:25:54] Method: Newton-Raphson
+Inputs: f(x)=x^2 - 2, eps=0.0001
+Result: Root=1.414216, iters=2
+----------------------------------------
+[2026-04-25 17:27:04] Method: Secant
+Inputs: f(x)=x^3 - x - 1, eps=0.0001
+Result: Root=1.324719, iters=7
+----------------------------------------
+[2026-04-25 17:29:39] Method: Secant
+Inputs: f(x)=x^3 - 8x -5, eps=1e-05
+Result: Root=3.100432, iters=4
+----------------------------------------
+[2026-04-25 17:33:15] Method: Secant
+Inputs: f(x)=x^3 - 8x - 5, eps=0.0001
+Result: Root=3.100432, iters=4
+----------------------------------------
+[2026-04-25 17:37:24] Method: Secant
+Inputs: f(x)=x^3 - 8x -5, eps=1e-06
+Result: Root=3.100432, iters=5
+----------------------------------------
+[2026-04-25 17:37:32] Method: Secant
+Inputs: f(x)=x^3 - 8x -5, eps=1e-05
+Result: Root=3.100432, iters=5
+----------------------------------------
+[2026-04-25 17:40:46] Method: Secant
+Inputs: f(x)=x^3 - 8x -5, eps=0.0001
+Result: Root=3.100432, iters=4
+----------------------------------------
+[2026-04-25 17:40:54] Method: Secant
+Inputs: f(x)=x^3 - 8x -5, eps=1e-05
+Result: Root=3.100432, iters=5
+----------------------------------------
+[2026-04-25 17:44:02] Method: Secant
+Inputs: f(x)=x^3 - 8x -5, eps=0.0001
+Result: Root=3.100432, iters=4
+----------------------------------------
+[2026-04-25 17:44:07] Method: Secant
+Inputs: f(x)=x^3 - 8x -5, eps=1e-05
+Result: Root=3.100432, iters=5
+----------------------------------------
+[2026-04-25 17:46:33] Method: Secant
+Inputs: f(x)=x^3 - 8x -5, eps=1e-05
+Result: Root=3.100432, iters=5
+----------------------------------------
+[2026-04-25 17:46:58] Method: Secant
+Inputs: f(x)=x^3 - 8x -5, eps=0.0001
+Result: Root=3.100432, iters=4
+----------------------------------------
+[2026-04-25 17:47:04] Method: Secant
+Inputs: f(x)=x^3 - 8x -5, eps=1e-05
+Result: Root=3.100432, iters=5
+----------------------------------------
+[2026-04-25 17:47:28] Method: Secant
+Inputs: f(x)=x^3 - 8x -5, eps=1e-05
+Result: Root=3.100432, iters=5
+----------------------------------------
+[2026-04-25 17:50:36] Method: Secant
+Inputs: f(x)=x^3 - 8x -5, eps=1e-05
+Result: Root=3.100432, iters=5
+----------------------------------------
+[2026-04-25 17:53:48] Method: Secant
+Inputs: f(x)=e^x - 3x , eps=1e-05
+Result: Root=0.619061, iters=7
+----------------------------------------
+[2026-04-25 18:18:44] Method: Secant
+Inputs: f(x)=e^x - 3x, eps=1e-05
+Result: Root=0.61906, iters=7
+----------------------------------------
+[2026-04-25 18:18:59] Method: Secant
+Inputs: f(x)=e^x - 3x, eps=0.0001
+Result: Root=0.61906, iters=6
+----------------------------------------
+[2026-04-25 18:19:36] Method: Secant
+Inputs: f(x)=x^3 - 8x - 5, eps=1e-05
+Result: Root=3.1004, iters=5
+----------------------------------------
+[2026-04-25 18:19:56] Method: Secant
+Inputs: f(x)=x^3 - 8x - 5, eps=0.001
+Result: Root=3.1004, iters=4
+----------------------------------------
+[2026-04-25 18:20:13] Method: Secant
+Inputs: f(x)=x^3 - 8x - 5, eps=1e-05
+Result: Root=3.1004, iters=5
+----------------------------------------
+[2026-04-25 18:20:21] Method: Secant
+Inputs: f(x)=x^3 - 8x - 5, eps=1e-05
+Result: Root=3.1, iters=5
+----------------------------------------
+[2026-04-25 18:21:24] Method: Newton-Raphson
+Inputs: f(x)=e^x - 3x^2, eps=0.0001
+Result: Root=0.910018, iters=2
+----------------------------------------
+[2026-04-25 18:21:40] Method: Newton-Raphson
+Inputs: f(x)=e^x - 3x^2, eps=1e-05
+Result: Root=0.910008, iters=3
+----------------------------------------
+[2026-04-25 18:21:50] Method: Newton-Raphson
+Inputs: f(x)=e^x - 3x^2, eps=1e-05
+Result: Root=0.910008, iters=3
+----------------------------------------
+[2026-04-25 18:21:54] Method: Newton-Raphson
+Inputs: f(x)=e^x - 3x^2, eps=1e-05
+Result: Root=0.910008, iters=3
+----------------------------------------
+[2026-04-25 18:22:17] Method: Secant
+Inputs: f(x)=x^3 - 8x -5, eps=0.0001
+Result: Root=3.10043, iters=4
+----------------------------------------
+[2026-04-25 18:44:15] Method: Newton Forward
+Inputs: x=[0.0, 0.1, 0.2, 0.3, 0.4], y=[1.0, 1.3499, 1.8221, 2.4596, 3.3201], target=0.05
+Result: result=1.161776
+----------------------------------------
+[2026-04-25 18:44:47] Method: Newton Forward
+Inputs: x=[0.0, 0.1, 0.2, 0.3, 0.4], y=[1.0, 1.3499, 1.8221, 2.4596, 3.3201], target=0.05
+Result: result=1.1618
+----------------------------------------
+[2026-04-25 18:50:02] Method: Newton Backward
+Inputs: x=[40.0, 50.0, 60.0, 70.0, 80.0, 90.0], y=[204.0, 224.0, 246.0, 270.0, 296.0, 324.0], target=84.0
+Result: result=306.960000
+----------------------------------------

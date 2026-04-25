@@ -1,11 +1,11 @@
 import sympy as sp
 import pandas as pd
-from sympy.parsing.sympy_parser import parse_expr, standard_transformations, implicit_multiplication_application
+from sympy.parsing.sympy_parser import parse_expr, standard_transformations, implicit_multiplication_application, convert_xor
 
 def Bisection(func, a_val, b_val, eps=0.0001):
     x = sp.symbols('x')
     local_dict = {'pi': sp.pi, 'e': sp.E, 'exp': sp.exp, 'cos': sp.cos, 'sin': sp.sin, 'tan': sp.tan}
-    transformations = standard_transformations + (implicit_multiplication_application,)
+    transformations = standard_transformations + (implicit_multiplication_application, convert_xor)
     try:
         f = parse_expr(func, local_dict=local_dict, transformations=transformations)
     except Exception as e:

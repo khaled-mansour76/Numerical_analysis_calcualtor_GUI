@@ -20,6 +20,9 @@ def order(A, b):
             return (New_order_of_A, New_order_of_b)
     return (A, b)
 
+def to_subscript(n):
+    return str(n).translate(str.maketrans("0123456789", "₀₁₂₃₄₅₆₇₈₉"))
+
 def gauss_seidel(A, B, eps=1e-06):
     A, B = order(A, B)
     n = len(B)
@@ -27,6 +30,13 @@ def gauss_seidel(A, B, eps=1e-06):
     iteration = 0
     max_iter = 100
     history = []
+    
+    iter_dict = {'Iteration': 0}
+    for i in range(n):
+        # Store raw float; the GUI's precision formatter handles display.
+        iter_dict[f'X{to_subscript(i + 1)}'] = x[i]
+    history.append(iter_dict)
+    
     while iteration < max_iter:
         iteration += 1
         old_x = x.copy()
@@ -38,11 +48,15 @@ def gauss_seidel(A, B, eps=1e-06):
             if A[i, i] == 0:
                 raise ValueError("Zero pivot element encountered on diagonal.")
             x[i] = (B[i] - sum_val) / A[i, i]
-        history.append(list(x))
+            
+        iter_dict = {'Iteration': iteration}
+        for i in range(n):
+            iter_dict[f'X{to_subscript(i + 1)}'] = x[i]
+        history.append(iter_dict)
+        
         if np.allclose(x, old_x, atol=float(eps)):
             break
-    column_names = [f'X{i + 1}' for i in range(n)]
+            
+    column_names = ['Iteration'] + [f'X{to_subscript(i + 1)}' for i in range(n)]
     df = pd.DataFrame(history, columns=column_names)
-    df.index.name = 'Iteration'
-    df.index += 1
     return (x, iteration, df)
